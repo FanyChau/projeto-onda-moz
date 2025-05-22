@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400&family=Poppins:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +26,7 @@ header {
 .topo{ 
    color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     padding: 15px 0;
     position: fixed;
@@ -41,8 +44,8 @@ header {
 
 
 .container-logo img{  
-    width: 75px;
-    height: 75px;   
+    width: 70px;
+    height: 70px;   
 }
 
 /* Barra de navegação */
@@ -51,7 +54,7 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav a:hover{
@@ -62,12 +65,12 @@ nav a:hover{
 
 /*Secão de banner*/
 .secao-banner{
-    color: #4AC4F3;
-    padding: 200px;
+    color: #ffff;
+    padding: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('assets/fundo-site.jpg');
+    background-image: url('assets/fundo-2.JPG');
     background-position: center;
     background-size: cover;
 }
@@ -76,6 +79,34 @@ nav a:hover{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5em;
     text-align: center;
+    margin-top: 50px;
+}
+
+.secao-contacto{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FFC107;
+    border-radius: 20px;
+    display: flex;
+    letter-spacing: 1px;
+    /*position: relative;
+    right: 140px;*/
+    
+}
+
+.secao-contacto a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Monseratt', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.secao-contacto:hover{
+	 background-color: #e0a800;
+}
+
+.secao-contacto img{
+    width: 20px;
 }
 
 /* Secão Sobre */
@@ -109,20 +140,99 @@ nav a:hover{
 }
 
 .titulo-destino{
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding: 100px 0 50px 0;
+    padding: 50px 0 20px 0;
 }
+
 .card {
-    background: white;
     padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    text-align: center;
-    border-top: 5px solid #f4a261;
+    text-align: center; 
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+   
 }
 .card h3 {
     color: #0077b6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card P{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/* Secão Serviços */
+.secao-servicos {
+    
+    background-image: url('assets/20210117_124509.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    gap: 20px; /* Espaçamento entre o título e os cards */
+}
+
+
+.secao-servicos h2 {
+    text-align: center;
+    margin-bottom: 10px; /* Espaçamento entre o título e os cards */
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.secao-servicos .cards {
+    display: flex; /* Organiza os cards em linha */
+    flex-direction: row;
+    /*justify-content: space-around; /* Espaça os cards uniformemente */
+    /*gap: 10px; /* Espaçamento entre os cards */
+    width: 100%; /* Garante que os cards ocupem toda a largura disponível */
+    max-width: 1024px;
+   
+}
+
+.secao-servicos .cards div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+
+.secao-servicos hr {
+    width: 75%; /* Define a largura da linha */
+    border: 0.2px solid #ffffff; /* Cor e espessura da linha */
+    margin: 20px auto; /* Centraliza a linha e adiciona espaçamento */
+}
+
+/*.secao-servicos .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC107;  Cor de fundo do botão 
+    color: #ffffff;  Cor do texto 
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;  Bordas arredondadas 
+    margin-top: 20px;  Espaçamento acima do botão 
+}
+.secao-servicos .button:hover {
+    background-color: #e0a800;  Cor ao passar o mouse 
 }
 
 /* Secão Galeria */
@@ -130,6 +240,10 @@ nav a:hover{
     text-align: center;
     padding: 50px 20px;
     background: white;
+}
+
+.galeria h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .grid-galeria {
