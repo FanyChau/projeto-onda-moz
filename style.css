@@ -44,8 +44,8 @@ header {
 
 
 .container-logo img{  
-    width: 70px;
-    height: 70px;   
+    width: 90px;
+    height: 90px;   
 }
 
 /* Barra de navegação */
@@ -60,8 +60,6 @@ nav a {
 nav a:hover{
     color: #FFC107;
 }
-
-
 
 /*Secão de banner*/
 .secao-banner{
@@ -88,10 +86,7 @@ nav a:hover{
     background-color: #FFC107;
     border-radius: 20px;
     display: flex;
-    letter-spacing: 1px;
-    /*position: relative;
-    right: 140px;*/
-    
+    letter-spacing: 1px;   
 }
 
 .secao-contacto a{
@@ -155,7 +150,6 @@ nav a:hover{
 .card img {
     width: 200px;
     height: 200px;
-   
 }
 .card h3 {
     color: #0077b6;
@@ -169,7 +163,6 @@ nav a:hover{
 
 /* Secão Serviços */
 .secao-servicos {
-    
     background-image: url('assets/20210117_124509.jpg');
     background-position: center;
     background-size: cover;
@@ -177,27 +170,24 @@ nav a:hover{
     padding: 50px 20px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Organiza os elementos verticalmente */
+    flex-direction: column; 
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    gap: 20px; /* Espaçamento entre o título e os cards */
+    gap: 20px; 
 }
-
 
 .secao-servicos h2 {
     text-align: center;
-    margin-bottom: 10px; /* Espaçamento entre o título e os cards */
+    margin-bottom: 10px;
     font-size: 24px;
     color: #ffffff;
 }
 
 .secao-servicos .cards {
-    display: flex; /* Organiza os cards em linha */
+    display: flex; 
     flex-direction: row;
-    /*justify-content: space-around; /* Espaça os cards uniformemente */
-    /*gap: 10px; /* Espaçamento entre os cards */
-    width: 100%; /* Garante que os cards ocupem toda a largura disponível */
+    width: 100%;
     max-width: 1024px;
    
 }
@@ -211,28 +201,10 @@ nav a:hover{
     margin: 0 auto;
 }
 
-
-
 .secao-servicos hr {
-    width: 75%; /* Define a largura da linha */
-    border: 0.2px solid #ffffff; /* Cor e espessura da linha */
-    margin: 20px auto; /* Centraliza a linha e adiciona espaçamento */
-}
-
-/*.secao-servicos .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFC107;  Cor de fundo do botão 
-    color: #ffffff;  Cor do texto 
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 20px;  Bordas arredondadas 
-    margin-top: 20px;  Espaçamento acima do botão 
-}
-.secao-servicos .button:hover {
-    background-color: #e0a800;  Cor ao passar o mouse 
+    width: 75%; 
+    border: 0.2px solid #fff;
+    margin: 20px auto; 
 }
 
 /* Secão Galeria */
