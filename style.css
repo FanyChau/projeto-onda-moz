@@ -142,28 +142,35 @@ nav a:hover{
     padding: 50px 0 20px 0;
 }
 
-.card {
-    padding: 20px;
+.card-destino{
+    padding: 20px 0px;
     text-align: center; 
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.card img {
-    width: 200px;
+.card-destino img {
+    width: 300px;
     height: 200px;
+    background-position: center;
+    background-size: cover;
+    
 }
-.card h3 {
+.card-destino h3 {
+     padding: 5px 0;
     color: #0077b6;
     font-family: 'Montserrat', sans-serif;
 }
 
-.card P{
+.card-destino P{
     font-family: 'Lato', sans-serif;
     
 }
 
 /* Secão Serviços */
 .secao-servicos {
-    background-image: url('assets/20210117_124509.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('assets/20210117_124509.jpg');
     background-position: center;
     background-size: cover;
     margin-top: 30px;
@@ -182,6 +189,11 @@ nav a:hover{
     margin-bottom: 10px;
     font-size: 24px;
     color: #ffffff;
+    text-transform: uppercase;
+}
+
+.secao-servicos h3{
+    text-transform: uppercase;
 }
 
 .secao-servicos .cards {
@@ -203,7 +215,7 @@ nav a:hover{
 
 .secao-servicos hr {
     width: 75%; 
-    border: 0.2px solid #fff;
+    border: 0.5px solid #ffffff70;
     margin: 20px auto; 
 }
 
