@@ -109,12 +109,18 @@ nav a:hover{
     padding: 100px 0 50px 0;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
        
+}
+
+.secao-sobre h2{
+     font-family: 'Montserrat', sans-serif;
 }
 
 .img-sobre img{
     width: 500px;
-    height: 500px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .texto-sobre{
@@ -122,6 +128,8 @@ nav a:hover{
     display: flex;
     gap: 20px;
     flex-direction: column;
+    text-align: justify;
+    line-height: 1.5em;
     
 }
 
