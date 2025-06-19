@@ -110,11 +110,13 @@ nav a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
        
 }
 
 .secao-sobre h2{
      font-family: 'Montserrat', sans-serif;
+     text-align: center;
 }
 
 .img-sobre img{
