@@ -165,6 +165,7 @@ nav a:hover{
     height: 200px;
     background-position: center;
     background-size: cover;
+    object-fit: cover;
     
 }
 .card-destino h3 {
@@ -206,6 +207,10 @@ nav a:hover{
     text-transform: uppercase;
 }
 
+.secao-servicos p {
+    width: 90%;
+}
+
 .secao-servicos .cards {
     display: flex; 
     flex-direction: row;
@@ -231,26 +236,32 @@ nav a:hover{
 
 /* Secão Galeria */
 .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding: 50px 20px;
     background: white;
+    margin: 0 auto;
 }
 
 .galeria h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.grid-galeria {
+.container-galeria {
     padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 15px;
 }
 
-.grid-galeria img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+.container-galeria img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+
 }
 
 /* Secão Contato */
